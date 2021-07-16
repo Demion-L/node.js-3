@@ -9,12 +9,11 @@ export class Role extends Model<Role> {
   uuid!: number;
 
   @Column
-  name!: number;
+  name!: string;
 
   @Column
   permissions!: number;
 
   @BelongsToMany(() => User)
   cast?: User[];
-
 }

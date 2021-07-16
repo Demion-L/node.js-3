@@ -1,5 +1,6 @@
-import {Model, Column, Table, BelongsToMany, Scopes, CreatedAt, UpdatedAt} from "sequelize-typescript";
-import {Role} from "./Movie";
+import {Model, Column, Table, CreatedAt, UpdatedAt, BelongsTo} from "sequelize-typescript";
+import {Role} from "./Role";
+
 
 
 @Table
@@ -9,9 +10,9 @@ export class User extends Model<User> {
   uuid!: number;
 
   @Column
-  name!: number;
+  name!: string;
 
-  @BelongsToMany(() => Role)
+  @BelongsTo(() => Role)
 
   @CreatedAt
   @Column
