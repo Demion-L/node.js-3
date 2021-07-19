@@ -1,4 +1,4 @@
-import {Model, Column, Table, CreatedAt, UpdatedAt, BelongsTo} from "sequelize-typescript";
+import {Model, Column, AutoIncrement, PrimaryKey, Table, CreatedAt, UpdatedAt, BelongsTo} from "sequelize-typescript";
 import {Role} from "./Role";
 
 
@@ -7,10 +7,18 @@ import {Role} from "./Role";
 export class User extends Model<User> {
 
   @Column
+  @AutoIncrement
+  @PrimaryKey
   uuid!: number;
 
   @Column
   name!: string;
+
+  @Column
+  roleID!: number | undefined;
+  
+  @Column
+  userRole!: [Role] | undefined
 
   @BelongsTo(() => Role)
 

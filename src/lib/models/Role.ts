@@ -1,19 +1,19 @@
-import { BelongsToMany, Column, Model, Table } from 'sequelize-typescript';
+import {AutoIncrement, BelongsToMany, Column, Model, PrimaryKey, Table} from 'sequelize-typescript';
 import { User } from "./User";
+import {UserRoles} from "./UserRoles";
 
 
 @Table
 export class Role extends Model<Role> {
 
   @Column
+  @AutoIncrement
+  @PrimaryKey
   uuid!: number;
 
   @Column
   name!: string;
 
-  @Column
-  permissions!: number;
-
-  @BelongsToMany(() => User)
-  cast?: User[];
+  @BelongsToMany(() => User, () => UserRoles)
+  list?: User[];
 }
