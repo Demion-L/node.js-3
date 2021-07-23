@@ -30,11 +30,6 @@
       "single"
     ],
     "triple-equals": true,
-    "member-ordering": [
-      true,
-      "public-before-private",
-      "variables-before-functions"
-    ],
     "variable-name": [
       true,
       "ban-keywords",

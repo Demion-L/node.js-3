@@ -26,6 +26,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1vAYs3aDs2Xi5jkJzxjU6kr2uTd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,9 +47,80 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="js.linters.configure.manually.selectedtslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="D:\SoftServeHW\RESTapi-3\node_modules\prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
     <property name="ts.external.directory.path" value="D:\SoftServeHW\RESTapi-3\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="realtime" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="realtime" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serv" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serv" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serv" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.realtime" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -65,12 +142,35 @@
       <workItem from="1626352366660" duration="2266000" />
       <workItem from="1626424282932" duration="4871000" />
       <workItem from="1626615409951" duration="1183000" />
-      <workItem from="1626684156575" duration="282000" />
+      <workItem from="1626684156575" duration="9059000" />
+      <workItem from="1626756315059" duration="6288000" />
+      <workItem from="1626944496471" duration="14895000" />
+      <workItem from="1627025391601" duration="6465000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/server.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/sequelize.js" />
+        <option value="$PROJECT_DIR$/src/lib/sequelize.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/app.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/app.js" />
+        <option value="$PROJECT_DIR$/src/lib/server.js" />
+        <option value="$PROJECT_DIR$/src/config/constants.js" />
+        <option value="$PROJECT_DIR$/src/config/constants.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/models/UserRoles.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/models/UserRoles.js" />
+        <option value="$PROJECT_DIR$/src/lib/models/User.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/models/Role.js.map" />
+        <option value="$PROJECT_DIR$/src/lib/models/Role.js" />
+        <option value="$PROJECT_DIR$/src/lib/models/User.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -91,25 +191,41 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1226" height="173" key="GridCell.Tab.0.bottom" timestamp="1626351180415">
+    <state x="417" y="220" key="#TSLint" timestamp="1627043443616">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1226" height="173" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1626351180415" />
-    <state width="1226" height="173" key="GridCell.Tab.0.center" timestamp="1626351180414">
+    <state x="417" y="220" key="#TSLint/0.0.1366.768@0.0.1366.768" timestamp="1627043443616" />
+    <state x="664" y="222" key="#Usage_Scope" timestamp="1626966135792">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1226" height="173" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1626351180414" />
-    <state width="1226" height="173" key="GridCell.Tab.0.left" timestamp="1626351180414">
+    <state x="664" y="222" key="#Usage_Scope/0.0.1366.768@0.0.1366.768" timestamp="1626966135792" />
+    <state x="512" y="103" key="#com.intellij.ide.util.MemberChooser" timestamp="1626955817230">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1226" height="173" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1626351180414" />
-    <state width="1226" height="173" key="GridCell.Tab.0.right" timestamp="1626351180414">
+    <state x="512" y="103" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1626955817230" />
+    <state width="1102" height="177" key="GridCell.Tab.0.bottom" timestamp="1627048246052">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1226" height="173" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1626351180414" />
-    <state x="366" y="3" key="SettingsEditor" timestamp="1626334940766">
+    <state width="1102" height="177" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
+    <state width="1102" height="177" key="GridCell.Tab.0.center" timestamp="1627048246052">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="366" y="3" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1626334940766" />
+    <state width="1102" height="177" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
+    <state width="1102" height="177" key="GridCell.Tab.0.left" timestamp="1627048246052">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1102" height="177" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
+    <state width="1102" height="177" key="GridCell.Tab.0.right" timestamp="1627048246052">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1102" height="177" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
+    <state x="169" y="16" width="1061" height="738" key="SettingsEditor" timestamp="1626968488240">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="169" y="16" width="1061" height="738" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1626968488240" />
+    <state x="353" y="196" key="run.anything.popup" timestamp="1626965829827">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="353" y="196" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1626965829827" />
   </component>
 </project>
