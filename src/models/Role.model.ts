@@ -2,7 +2,6 @@ import {
   Model,
   Table,
   Column,
-  ForeignKey,
   PrimaryKey,
   Default,
   HasMany,
@@ -12,7 +11,7 @@ import {
 import { v4 } from "uuid";
 import { UserModel } from "./User.model";
 import { Permission } from "./Permission.model";
-import { STRING } from "sequelize";
+import { STRING, UUID, UUIDV4 } from "sequelize";
 import RolePermissionModel from "./RolePermission.model";
 
 interface IRole {
@@ -27,7 +26,9 @@ export class RoleModel extends Model<IRole> {
   @IsUUID(4)
   @PrimaryKey
   @Default(v4)
-  @Column
+  @Column({
+    type: UUID,
+  })
   uuid!: string;
 
   @Column({

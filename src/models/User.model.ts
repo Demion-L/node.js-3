@@ -17,7 +17,7 @@ import {
 } from "sequelize-typescript";
 import { v4 } from "uuid";
 import { RoleModel } from "./Role.model";
-import { DATE, STRING } from "sequelize";
+import { DATE, STRING, UUID, UUIDV4 } from "sequelize";
 
 interface IUser {
   uuid: string;
@@ -40,7 +40,7 @@ export class UserModel extends Model<IUser> {
   @PrimaryKey
   @Default(v4)
   @Column({
-    type: STRING,
+    type: UUID,
   })
   uuid!: string;
 
@@ -70,8 +70,10 @@ export class UserModel extends Model<IUser> {
   updatedAt!: Date;
 
   @ForeignKey(() => RoleModel)
-  @Column
-  roleId: number;
+  @Column({
+    type: UUID,
+  })
+  roleId: string;
 
   @BelongsTo(() => RoleModel)
   role: RoleModel;
