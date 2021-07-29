@@ -27,6 +27,7 @@
     ],
     "no-var-requires": false,
     "quotemark": [
+      true,
       "single"
     ],
     "triple-equals": true,

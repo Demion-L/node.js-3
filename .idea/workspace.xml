@@ -58,7 +58,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\SoftServeHW\RESTapi-3\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.tslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="D:\SoftServeHW\RESTapi-3\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected="npm.build">
@@ -145,7 +145,9 @@
       <workItem from="1626684156575" duration="9059000" />
       <workItem from="1626756315059" duration="6288000" />
       <workItem from="1626944496471" duration="14895000" />
-      <workItem from="1627025391601" duration="9229000" />
+      <workItem from="1627025391601" duration="9373000" />
+      <workItem from="1627120824120" duration="598000" />
+      <workItem from="1627550325787" duration="2157000" />
     </task>
     <servers />
   </component>
@@ -203,26 +205,26 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="512" y="103" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1626955817230" />
-    <state width="1102" height="177" key="GridCell.Tab.0.bottom" timestamp="1627048246052">
+    <state width="1102" height="176" key="GridCell.Tab.0.bottom" timestamp="1627051678707">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1102" height="177" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
-    <state width="1102" height="177" key="GridCell.Tab.0.center" timestamp="1627048246052">
+    <state width="1102" height="176" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1627051678707" />
+    <state width="1102" height="176" key="GridCell.Tab.0.center" timestamp="1627051678706">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1102" height="177" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
-    <state width="1102" height="177" key="GridCell.Tab.0.left" timestamp="1627048246052">
+    <state width="1102" height="176" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1627051678706" />
+    <state width="1102" height="176" key="GridCell.Tab.0.left" timestamp="1627051678705">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1102" height="177" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
-    <state width="1102" height="177" key="GridCell.Tab.0.right" timestamp="1627048246052">
+    <state width="1102" height="176" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1627051678705" />
+    <state width="1102" height="176" key="GridCell.Tab.0.right" timestamp="1627051678706">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1102" height="177" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1627048246052" />
-    <state x="169" y="16" width="1061" height="738" key="SettingsEditor" timestamp="1626968488240">
+    <state width="1102" height="176" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1627051678706" />
+    <state x="169" y="16" width="1061" height="738" key="SettingsEditor" timestamp="1627564670245">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="169" y="16" width="1061" height="738" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1626968488240" />
+    <state x="169" y="16" width="1061" height="738" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1627564670245" />
     <state x="353" y="196" key="run.anything.popup" timestamp="1626965829827">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

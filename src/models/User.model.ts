@@ -16,8 +16,9 @@ import {
   IsEmail,
 } from "sequelize-typescript";
 import { v4 } from "uuid";
-import { RoleModel } from "./Role.model";
 import { DATE, STRING, UUID, UUIDV4 } from "sequelize";
+
+import { RoleModel } from "./Role.model";
 
 interface IUser {
   uuid: string;
