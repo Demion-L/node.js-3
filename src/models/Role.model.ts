@@ -7,12 +7,13 @@ import {
   HasMany,
   IsUUID,
   BelongsToMany,
-} from "sequelize-typescript";
-import { v4 } from "uuid";
-import { UserModel } from "./User.model";
-import { Permission } from "./Permission.model";
-import { STRING, UUID, UUIDV4 } from "sequelize";
-import RolePermissionModel from "./RolePermission.model";
+} from 'sequelize-typescript';
+import { v4 } from 'uuid';
+import { STRING, UUID, UUIDV4 } from 'sequelize';
+
+import { UserModel } from './User.model';
+import { Permission } from './Permission.model';
+import RolePermissionModel from './RolePermission.model';
 
 interface IRole {
   uuid: string;

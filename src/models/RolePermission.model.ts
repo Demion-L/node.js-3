@@ -6,11 +6,12 @@ import {
   IsUUID,
   PrimaryKey,
   Default,
-} from "sequelize-typescript";
-import { RoleModel } from "./Role.model";
-import { NUMBER, STRING, UUID, UUIDV4 } from "sequelize";
-import { Permission } from "./Permission.model";
-import { v4 } from "uuid";
+} from 'sequelize-typescript';
+import { NUMBER, STRING, UUID, UUIDV4 } from 'sequelize';
+import { v4 } from 'uuid';
+
+import { RoleModel } from './Role.model';
+import { Permission } from './Permission.model';
 
 interface IRolePermissionModel {
   uuid: string;
